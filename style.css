@@ -1,0 +1,21 @@
+body{
+    background: #28263c;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1{
+    text-align: center;
+}
+section{
+    margin-left: 330px;
+}
+section img{
+    border-radius: 10px;
+}
+section button{
+    width: 250px;
+    display: block;
+    height: 50px;
+    background: #7aa999;
+    margin-left: 70px;
+}

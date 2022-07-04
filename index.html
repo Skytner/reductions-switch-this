@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduction, this, Switch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Reduction, this, Switch</h1>
+    </header>
+    <article>
+    <section>
+        <h2>Switch</h2>
+        <img src="img00.png" alt="">
+        <div class="variants">
+        <h3>Использование if</h3>
+        <img src="img02.png" alt="">
+        <h3>Использование Switch</h3>
+        <img src="img01.png" alt="">
+        <p>Пришлось number превратить в Number, так как код не работал, пока number был string</p>
+        <p style="font-size: 18px">Использование Switch в таком коде является некорректным, так как Switch используется для точных выражений</p>
+        <h3>Более правильное использование Switch</h3>
+        <img src="img03.png" alt="">
+        <h3>Использование Switch с типом данных string</h3>
+        <img src="img04.png" alt="">
+        <h3>Группировка Switch</h3>
+        <img src="img05.png" alt="">
+    </div>
+    </section>
+    <section>
+        <h2>Стрелочная функция и сокращенное if</h2>
+        <h3>Стрелочная функция</h3>
+        <h3>Синтаксис</h3>
+        <img src="img06.png" alt="">
+        <button onclick="callAlert()">Вызвать функцию alert</button>
+        <h3>Обычная функция</h3>
+        <img src="img07.png" alt="">
+        <h3>Стрелочная функция</h3>
+        <img src="img08.png" alt="">
+    </section>
+    <section>
+        <h2>this</h2>
+        <img src="img10.png" alt="">
+        <button id="yasuoBtn">Позиция Ясуо</button>
+        <button id='sionBtn'>Позиция Сиона</button>
+        <img src="img11.png" alt="">
+        <img src="img12.png" alt="">
+        <button onclick="changeButton(this)">Поменять кнопку</button>
+        <img src="img13.png" alt="">
+        <img src="img14.png" alt="">
+    </section>
+    </article>
+    <script src="app.js"></script>
+</body>
+</html>
